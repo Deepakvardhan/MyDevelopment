@@ -5,29 +5,16 @@ let form = document.querySelector("form");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    // fetch("https://ipwhois.app/json/")
-    //     .then((data) => {
-    //         return data.json()
-    //             .then(res => {
-    //                 let city = res.city;
-    //                 let country = res.country;
-    //                 let region = res.region;
-    //                 let isp = res.isp;
-    //                 let lat = res.latitude;
-    //                 let lon = res.longitude;
-    fetch("https://ipapi.co/json/")
-        .then((response) => {
-            return response.json()
-
-                .then((locationData) => {
-                    // Extract needed fields
-                    let city = locationData.city;
-                    let country = locationData.country_name;
-                    let region = locationData.region;
-                    let isp = locationData.isp;
-                    let lat = locationData.latitude;
-                    let lon = locationData.longitude;
-                    let timezoneFull = locationData.timezone;
+    fetch("https://ipwhois.app/json/")
+        .then((data) => {
+            return data.json()
+                .then(res => {
+                    let city = res.city;
+                    let country = res.country;
+                    let region = res.region;
+                    let isp = res.isp;
+                    let lat = res.latitude;
+                    let lon = res.longitude;
 
 
 
