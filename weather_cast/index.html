@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather: Current Conditions</title>
+        <link rel="stylesheet" href="weather_style.css">
+    </head>
+
+    <body>
+
+        <div>
+            <h1 class="center" id="websiteName">Velum<span class="decorate">Sky</span></h1>
+            <h3 class="center" id="coat">The perfect place to check what the clouds are up to -- <span
+                    class="decorate">right here, right now</span>
+            </h3>
+            <form>
+                <button type="submit" id="getWeather">Get Weather</button>
+            </form>
+        </div>
+
+
+
+        <div id="maincard">
+            <div id="leftcard">
+                <h2>User Location</h2>
+                <h3 id="countryname">Country:--</h3>
+                <h3 id="regionname">Region:--</h3>
+                <h3 id="cityname">City:--</h3>
+                <h3 id="longitude">Longitude:--</h3>
+                <h3 id="latitude">Latitude:--</h3>
+                <h3 id="isp">Internet Service Provider:--</h3>
+                <h3 id="timezone">Time Zone:--</h3>
+            </div>
+            <div id="rightcard">
+                <h2>Current Weather</h2>
+                <h3 id="current_temp">Present Temperature: --°C</h3>
+                <h3 id="cloud_area">Cloud Coverage: --%</h3>
+                <h3 id="wind_speed">Wind Speed: --Km/H</h3>
+                <h3 id="wind_direction">Wind Direction: -- °(degrees)</h3>
+                <h3 id="rain">Rain:--mm</h3>
+                <img src="" id='img1' alt="">
+                <h3 id="is_day">Day (or) Night</h3>
+            </div>
+        </div>
+
+
+
+        <div id="weekcard">
+            <div>
+                <h2>5-Day's Forecast</h2>
+            </div>
+            <div id="days">
+                <div class="day">
+                    <h3 id="day1_date">Date:--</h3>
+                    <h3 id="day1_max_temp">Max Temperature: --°C</h3>
+                    <h3 id="day1_min_temp">Min Temperature: --°C</h3>
+                    <!-- <img src="" id='img2' alt=""> -->
+                </div>
+
+                <div class="day">
+                    <h3 id="day2_date">Date:--</h3>
+                    <h3 id="day2_max_temp">Max Temperature: --°C</h3>
+                    <h3 id="day2_min_temp">Min Temperature: --°C</h3>
+                    <!-- <img src="" id='img3' alt=""> -->
+                </div>
+
+                <div class="day">
+                    <h3 id="day3_date">Date:--</h3>
+                    <h3 id="day3_max_temp">Max Temperature: --°C</h3>
+                    <h3 id="day3_min_temp">Min Temperature: --°C</h3>
+                    <!-- <img src="" id='img4' alt=""> -->
+                </div>
+
+                <div class="day">
+                    <h3 id="day4_date">Date:--</h3>
+                    <h3 id="day4_max_temp">Max Temperature: --°C</h3>
+                    <h3 id="day4_min_temp">Min Temperature: --°C</h3>
+                    <!-- <img src="" id='img5' alt=""> -->
+                </div>
+
+                <div class="day">
+                    <h3 id="day5_date">Date:--</h3>
+                    <h3 id="day5_max_temp">Max Temperature: --°C</h3>
+                    <h3 id="day5_min_temp">Min Temperature: --°C</h3>
+                </div>
+            </div>
+
+
+
+
+
+            <script src="weather_script.js"></script>
+    </body>
+
+</html>
