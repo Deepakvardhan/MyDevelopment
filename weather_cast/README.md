@@ -2,8 +2,7 @@
 
 A modern, elegant weather dashboard that displays current conditions and a 5‑day forecast based on your IP address. No manual location input needed – just click a button and get instant weather data for your area.
 
-![VelumSky Screenshot](weather-working.png)  
-*(Replace `weather-working.png` with your actual screenshot file name)*
+weatherphoto.png
 
 ---
 
